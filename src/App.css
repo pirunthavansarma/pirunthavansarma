@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li {
+  @apply px-2;
+}
+.bg-primary{
+    background: rgb(3, 3, 3);
+}
+
+.bg-secondary{
+    background: rgb(255, 255, 255);
+}
+.bg-secondary1{
+    background: rgb(255, 255, 255);
+}
+
+.mobile-nav {
+    @apply  fixed top-16 left-0 bg-gray-600 w-full h-1/5;
+}
+.mobile-nav li{
+    
+@apply w-full h-full text-center border-b-2
+}
+
+
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typing-effect {
+  overflow: hidden; /* Ensures the text stays within the div */
+  white-space: nowrap; /* Prevents the text from wrapping */
+  font-size: 2.5rem; /* Adjust size as needed */
+  animation: typing 6s steps(30, end) 1s 1, blink 0.7s step-end infinite; /* Typing once, then blinking cursor */
+  display: inline-block; /* Ensures the cursor is at the end of the text */
+}
+
+.typing-effect.paused {
+  animation: none; /* Pause the typing animation */
+}
+
+
+
+body {
+  text-align: center;
+}
+.rounded {
+    border-radius: 20px;
+}
+
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: 0.5;
+}
+.hr-text:before {
+  content: "";
+  background: linear-gradient(to right, transparent, #ffffff, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+.hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 0 0.5em;
+  line-height: 1.5em;
+  color: #818078;
+  background-color: #fcfcfa;
+}
+
+Copy code
+.custom-border {
+    border-left: 2px solid #a3a3a3; /* Adjust thickness and color as needed */
+    border-right: 2px solid #a3a3a3; /* Same for the right side */
+    border-top: none; /* Remove the top border */
+    border-bottom: none; /* Remove the bottom border */
+    border-radius: 50px; /* Rounded corners, adjust as needed */
+}
+/* In your global CSS file or inline styles */
+.dark .bg-primary {
+  background-color: #1f2937; /* Dark background color */
+}
+.dark .text-white {
+  color: #f9fafb; /* Light text color */
+}
