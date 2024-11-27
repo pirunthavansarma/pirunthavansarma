@@ -50,8 +50,7 @@ export default function Index() {
             animate={{ opacity: 1 }} 
             transition={{ duration: 0 }} // No transition needed as CSS animation handles typing
           >
-            I'm Krishnamoorthyiyar Pirunthavan
-          </motion.div>
+            I'm Krishnamoorthyiyar Pirunthavan <div> ()
           
           <motion.p
             className='mt-2 text-xl text-gray-700 dark:text-gray-300'
@@ -84,14 +83,14 @@ export default function Index() {
             >
               <FaGithub />
             </a>
-            <a
+            {/* <a
               href="https://www.facebook.com/share/b9Jve2Y7mKjJZVgL/?mibextid=LQQJ4d"
               target="_blank"
               rel="noopener noreferrer"
               className="pr-16 hover:text-red-500 dark:hover:text-red-400"
             >
               <FaFacebookF />
-            </a>
+            </a> */}
           </motion.div>
           <motion.p
             className='mt-6 text-2xl text-red-500 dark:text-red-400'

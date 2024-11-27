@@ -75,7 +75,7 @@ export default function Foot() {
                 className="text-gray-600 hover:text-white text-5xl transition-colors"
                 aria-label="Facebook"
               >
-                <RiFacebookBoxLine />
+                {/* <RiFacebookBoxLine />
               </a>
               <a
                 href="https://www.instagram.com"
@@ -90,7 +90,7 @@ export default function Foot() {
                 target="_blank"
                 className="text-gray-600 hover:text-white text-5xl transition-colors"
                 aria-label="GitHub"
-              >
+              > */}
                 <AiFillGithub />
               </a>
             </motion.div>

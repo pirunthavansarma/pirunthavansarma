@@ -1,7 +1,7 @@
 import { Bars3Icon, XMarkIcon, SunIcon, MoonIcon } from '@heroicons/react/24/solid';
 import { useState, useEffect } from 'react';
 import resume from '../img/resume.png'; // Correct path to your resume file
-import logo from '../img/Achchu logo.png'; // Correct path to your logo image
+import logo from '../img/logo.jpg'; // Correct path to your logo image
 
 export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
