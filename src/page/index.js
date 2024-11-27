@@ -1,21 +1,16 @@
 import { useState, useEffect } from 'react';
-import hero from '../img/abd.gif';
-import { FaLinkedinIn, FaGithub, FaFacebookF } from 'react-icons/fa'; // Import all icons from one line
+import hero from '../img/abd.gif'; // Replace with your hero image path
+import { FaLinkedinIn, FaGithub, FaFacebookF } from 'react-icons/fa'; // Social icons
 import { motion } from 'framer-motion';
-
-const playSound = (sound) => {
-  const audio = new Audio(sound); // Use the passed sound parameter
-  audio.play();
-};
 
 export default function Index() {
   const [darkMode, setDarkMode] = useState(() => {
-    // Initialize dark mode state from local storage
+    // Initialize dark mode state from localStorage
     return localStorage.getItem('darkMode') === 'true';
   });
 
   useEffect(() => {
-    // Update the class on the <html> element and save preference in local storage
+    // Update the HTML class and save preference to localStorage
     if (darkMode) {
       document.documentElement.classList.add('dark');
       localStorage.setItem('darkMode', 'true');
@@ -26,53 +21,52 @@ export default function Index() {
   }, [darkMode]);
 
   return (
-    <div className='overflow-x-hidden'>
-      <section className='flex flex-col md:flex-row px-5 py-48 bg-secondary dark:bg-gray-900 justify-center'>
-        <motion.div 
-          className='md:w-1/2'
-          initial={{ opacity: 0, x: -100 }}
+    <div className="overflow-x-hidden">
+      {/* Hero Section */}
+      <section className="flex flex-col-reverse md:flex-row items-center justify-center px-6 md:px-16 py-20 bg-gray-100 dark:bg-gray-900 min-h-screen">
+        {/* Left Content */}
+        <motion.div
+          className="md:w-1/2 text-center md:text-left space-y-6"
+          initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
           <motion.h1
-            className='py-16 text-red-500 dark:text-red-400 text-5xl font-hero hover:text-black dark:hover:text-white'
-            initial={{ opacity: 0, y: -50 }} // Start with opacity 0 and translate up
-            animate={{ opacity: 1, y: 0 }}   // Fade in and slide up
+            className="text-4xl md:text-5xl font-bold text-red-500 dark:text-red-400"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            Hi,<br/>
+            Hi,
           </motion.h1>
-          
-          {/* Updated Text with Typing Effect */}
-          <motion.div 
-            className='text-black dark:text-white font-bold text-6xl py-4 typing-effect' // Added typing effect class
-            initial={{ opacity: 0 }} 
-            animate={{ opacity: 1 }} 
-            transition={{ duration: 0 }} // No transition needed as CSS animation handles typing
-          >
-            I'm Krishnamoorthyiyar Pirunthavan 
-          </motion.div>
-          
-          <motion.p
-            className='mt-2 text-xl text-gray-700 dark:text-gray-300'
-            initial={{ opacity: 0, scale: 0.9 }} // Start with opacity 0 and scale down
-            animate={{ opacity: 1, scale: 1 }}  // Fade in and scale up
-            transition={{ duration: 1, delay: 1 }}
-          >
-            I am a Full-Stack Developer with a passion for building dynamic web applications and solutions. I specialize in building with MERN stack and creating intuitive user experiences.
-          </motion.p>
-          
-          <motion.div 
-            className='flex justify-center text-black dark:text-white py-16 text-5xl'
+          <motion.h2
+            className="text-3xl md:text-4xl font-extrabold text-gray-800 dark:text-white"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 1, duration: 0.5 }}
+            transition={{ duration: 1.2, delay: 0.5 }}
+          >
+            I'm Krishnamoorthyiyar Pirunthavan
+          </motion.h2>
+          <motion.p
+            className="text-lg md:text-xl text-gray-700 dark:text-gray-300"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.4, delay: 0.8 }}
+          >
+            A passionate Full-Stack Developer specializing in the MERN stack. I
+            create dynamic web applications with seamless user experiences.
+          </motion.p>
+          <motion.div
+            className="flex justify-center md:justify-start space-x-6 text-2xl mt-4"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1.6, delay: 1 }}
           >
             <a
               href="https://www.linkedin.com/in/krishnamoorthyiyar-pirunthavan-3a2800310/"
               target="_blank"
               rel="noopener noreferrer"
-              className="pr-16 hover:text-red-500 dark:hover:text-red-400"
+              className="hover:text-red-500 dark:hover:text-red-400"
             >
               <FaLinkedinIn />
             </a>
@@ -80,44 +74,41 @@ export default function Index() {
               href="https://pirunthavansarma.github.io/"
               target="_blank"
               rel="noopener noreferrer"
-              className="pr-16 hover:text-red-500 dark:hover:text-red-400"
+              className="hover:text-red-500 dark:hover:text-red-400"
             >
               <FaGithub />
             </a>
-            {/* <a
-              href="https://www.facebook.com/share/b9Jve2Y7mKjJZVgL/?mibextid=LQQJ4d"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="pr-16 hover:text-red-500 dark:hover:text-red-400"
-            >
-              <FaFacebookF />
-            </a> */}
           </motion.div>
           <motion.p
-            className='mt-6 text-2xl text-red-500 dark:text-red-400'
-            initial={{ opacity: 0, y: 20 }} // Start with opacity 0 and translate down
-            animate={{ opacity: 1, y: 0 }}   // Fade in and slide up
-            transition={{ duration: 1, delay: 1.5 }}
+            className="text-lg font-medium text-red-500 dark:text-red-400 mt-6"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.8, delay: 1.2 }}
           >
-            Let's work together to bring your ideas to life!
+            Let's collaborate and bring your ideas to life!
           </motion.p>
         </motion.div>
 
-        <motion.div 
-          className='py-7 md:w-1/3'
-          initial={{ opacity: 0, y: 100 }}
-          animate={{ opacity: 1, y: 0 }}
+        {/* Right Image */}
+        <motion.div
+          className="md:w-1/3 flex justify-center"
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <img src={hero} alt="Hero" className='rounded-3xl'/>
+          <img
+            src={hero}
+            alt="Hero"
+            className="rounded-3xl shadow-lg max-w-full"
+          />
         </motion.div>
       </section>
 
-      {/* Dark Mode Toggle Button */}
-      <div className='fixed top-4 right-4'>
+      {/* Dark Mode Toggle */}
+      <div className="fixed top-4 right-4">
         <button
-          onClick={() => setDarkMode(!darkMode)}
-          className='bg-gray-300 dark:bg-gray-800 text-black dark:text-white px-4 py-2 rounded-full'
+          onClick={() => setDarkMode((prev) => !prev)}
+          className="bg-gray-300 dark:bg-gray-800 text-black dark:text-white px-4 py-2 rounded-full shadow-md transition-all hover:scale-105"
         >
           Toggle Dark Mode
         </button>
