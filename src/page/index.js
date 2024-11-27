@@ -50,7 +50,8 @@ export default function Index() {
             animate={{ opacity: 1 }} 
             transition={{ duration: 0 }} // No transition needed as CSS animation handles typing
           >
-            I'm Krishnamoorthyiyar Pirunthavan <div> ()
+            I'm Krishnamoorthyiyar Pirunthavan 
+          </motion.div>
           
           <motion.p
             className='mt-2 text-xl text-gray-700 dark:text-gray-300'
