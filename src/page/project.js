@@ -93,7 +93,7 @@ export default function Pro() {
                                 />
                                 <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 p-4 rounded-t-lg">
                                     <h2 className="text-xl font-semibold text-white">
-                                    Skill Development
+                                    Login Page with Animated Background
                                     </h2>
                                 </div>
                                 </div>
