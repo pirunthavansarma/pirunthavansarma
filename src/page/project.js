@@ -50,7 +50,7 @@ export default function Pro() {
 
 
                             {/* Project 2 */}
-                        {/* <a href="https://pirunthavansarma.github.io/FoodIn/" 
+                        <a href="https://pirunthavansarma.github.io/Quiz-App/" 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="block"
@@ -64,17 +64,16 @@ export default function Pro() {
                                 />
                                 <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 p-4 rounded-t-lg">
                                     <h2 className="text-xl font-semibold text-white">
-                                    Movie Download App
+                                    QuizApp
                                     </h2>
                                 </div>
                                 </div>
                                 <div className="flex flex-col justify-between p-4 bg-white dark:bg-gray-800 rounded-b-lg">
                                 <p className="mt-2 text-gray-500 dark:text-gray-400">
-                                    Download the latest movies and TV shows with ease! Our app offers a vast collection of content, from blockbusters to indie films. Browse, stream, or download for offline viewing — anytime, anywhere.
-                                </p>
+                                A simple and interactive quiz application built using HTML, CSS, and JavaScript. Features multiple-choice questions, dynamic scoring, and a user-friendly interface. Designed to enhance learning and test knowledge in an engaging way.                                </p>
                                 </div>
                             </div>
-                            </a> */}
+                            </a>
 
 
 

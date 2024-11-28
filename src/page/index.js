@@ -71,7 +71,7 @@ export default function Index() {
               <FaLinkedinIn />
             </a>
             <a
-              href="https://pirunthavansarma.github.io/"
+              href="https://github.com/pirunthavansarma/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-red-500 dark:hover:text-red-400"
