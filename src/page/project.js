@@ -78,8 +78,8 @@ export default function Pro() {
 
 
                                             {/* Project 3 */}
-                            {/* <a 
-                            href="https://www.figma.com/proto/YEkYUIwXSMW4S30Qzs2NlC/Untitled?node-id=0-1&t=Sg0NBUHAYWV1O8KA-1" 
+                            <a 
+                            href="https://pirunthavansarma.github.io/login/" 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="block"
@@ -99,11 +99,10 @@ export default function Pro() {
                                 </div>
                                 <div className="flex flex-col justify-between p-4 bg-white dark:bg-gray-800 rounded-b-lg">
                                 <p className="mt-2 text-gray-500 dark:text-gray-400">
-                                    A skill development app helps users learn and improve skills through interactive lessons and practice. It offers courses and tools for various abilities. The app tracks progress and provides feedback for continuous growth.
-                                </p>
+                                A visually appealing login page created using HTML and CSS, featuring a dynamic animated background. Showcases creative design and smooth animations to enhance the user experience.                                </p>
                                 </div>
                             </div>
-                            </a> */}
+                            </a>
 
 
                                             {/* Project 2 */}
