@@ -136,8 +136,8 @@ export default function Pro() {
 
 
                     {/* Project 4 */}
-                        {/* <a 
-                        href="https://www.figma.com/proto/kfWmiXmr4FfdIYLyZpMpW2/Untitled?node-id=0-1&t=8olCBftMk5nRujQO-1" 
+                        <a 
+                        href="https://pirunthavansarma.github.io/Random-user/" 
                         target="_blank" 
                         rel="noopener noreferrer" 
                         className="block"
@@ -151,17 +151,18 @@ export default function Pro() {
                             />
                             <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 p-4 rounded-t-lg">
                                 <h2 className="text-xl font-semibold text-white">
-                                Car Rental ( on going)
+                                Random User Generator
                                 </h2>
                             </div>
                             </div>
                             <div className="flex flex-col justify-between p-4 bg-white dark:bg-gray-800 rounded-b-lg">
                             <p className="mt-2 text-gray-500 dark:text-gray-400">
-                                Rent a car effortlessly with our app! Browse, compare, and book from a wide range of vehicles in just a few taps. Enjoy flexible rentals and real-time tracking for a smooth, convenient ride.
-                            </p>
+                            A web application that fetches and displays random user profiles using an external API. Built with HTML, CSS, and JavaScript, it dynamically generates user details such as name, email, and location, showcasing API integration and responsive design.
+
+</p>
                             </div>
                         </div>
-                        </a> */}
+                        </a>
 
 
                     {/* Project 5 */}
