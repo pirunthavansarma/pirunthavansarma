@@ -166,8 +166,8 @@ export default function Pro() {
 
 
                     {/* Project 5 */}
-                            {/* <a 
-                            href="https://www.figma.com/proto/Wwkp5HwU1KX68ZMKxhvumK/Untitled?node-id=0-1&t=uUeXpIqqNUMoxNRe-1" 
+                            <a 
+                            href="https://pirunthavansarma.github.io/404Game/" 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="block"
@@ -177,21 +177,24 @@ export default function Pro() {
                                 <img 
                                     className="object-cover object-center w-full h-64 rounded-lg lg:h-80" 
                                     src={Project5} 
-                                    alt="X-eat Project" 
+                                    alt="404 Dinosaur Game" 
                                 />
                                 <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 p-4 rounded-t-lg">
                                     <h2 className="text-xl font-semibold text-white">
-                                    X-eat
+                                   404 Dinosaur Game
                                     </h2>
                                 </div>
                                 </div>
                                 <div className="flex flex-col justify-between p-4 bg-white dark:bg-gray-800 rounded-b-lg">
                                 <p className="mt-2 text-gray-500 dark:text-gray-400">
-                                    Craving something delicious? Our app connects you to the best local restaurants, letting you order and track your meal with ease. Get your food delivered fast, fresh, and right to your door!
-                                </p>
+
+                                        Here’s a concise and engaging description for the 404 Dinosaur Game to include in your portfolio:
+
+                                    404 Dinosaur Game
+                                    This project is a fun, interactive browser game inspired by the classic offline dinosaur game from Google Chrome. It doubles as a creative 404 error page or a standalone game. Players control a dinosaur that jumps over obstacles, aiming to survive as long as possible                                </p>
                                 </div>
                             </div>
-                            </a> */}
+                            </a>
 
                     {/* Project 6 */}
                     {/* <div className="bg-gray-300 p-4 rounded-lg transform transition duration-500 hover:scale-105 hover:shadow-lg flex flex-col hover:bg-[rgb(96,207,64)] transition-colors">
