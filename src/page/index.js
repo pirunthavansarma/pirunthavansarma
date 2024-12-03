@@ -63,7 +63,7 @@ export default function Index() {
             transition={{ duration: 1.6, delay: 1 }}
           >
             <a
-              href="https://www.linkedin.com/in/krishnamoorthyiyar-pirunthavan-3a2800310/"
+              href="https://www.linkedin.com/in/krishnamoorthyiyar-pirunthavan-sarma/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-red-500 dark:hover:text-red-400"

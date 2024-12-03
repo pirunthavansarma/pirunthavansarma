@@ -87,7 +87,7 @@ export default function Foot() {
             transition={{ duration: 0.8, delay: 0.9 }}
           >
             <a
-              href="https://www.linkedin.com/in/krishnamoorthyiyar-pirunthavan-3a2800310/"
+              href="https://www.linkedin.com/in/krishnamoorthyiyar-pirunthavan-sarma/"
               target="_blank"
               rel="noopener noreferrer"
               className={`text-5xl transition-colors ${
